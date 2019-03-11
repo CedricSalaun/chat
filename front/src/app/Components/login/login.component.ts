@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { first } from 'rxjs/operators';
 
 import { LoginService } from '../service/login.service';
 
@@ -22,8 +23,8 @@ export class LoginComponent implements OnInit {
     }
 
     public submitForm(): void {
-        this._loginService.login(this.loginForm.value).subscribe((response: Response) => {
-
+        this._loginService.login(this.loginForm.value).pipe(first()).subscribe((response: any) => {
+            console.log({ response });
         });
     }
 }
