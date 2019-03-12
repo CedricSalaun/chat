@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
 
-import { LoginService } from '../service/login.service';
+import { LoginService } from '../../service/login.service';
 
 @Component({
     selector: 'app-login',
@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
 
     public submitForm(): void {
         this._loginService.login(this.loginForm.value).pipe(first()).subscribe((response: any) => {
-            console.log({ response });
+            localStorage.setItem('chat_key', response);
         });
     }
 }

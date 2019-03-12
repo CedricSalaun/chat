@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { LoginGuard } from './guards/login.guard';
-import { HomeComponent } from './home/home.component';
-
+import { HomeComponent } from './Components/home/home.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'login', pathMatch: 'full' },
