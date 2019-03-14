@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8fedd68-d917-4edd-a430-5f9fb9810c9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/Components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/Components/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/Components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/Components/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/app.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/app/guards/login.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/guards/login.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/service/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/service/login.service.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,16 +17,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/src/app/app.routing.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="176">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#309#537#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/src/app/Components/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
@@ -49,6 +46,15 @@
                 <element signature="e#370#371#0" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -112,6 +118,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#340#553#0" expanded="true" />
+                <element signature="e#360#435#0" expanded="true" />
+                <element signature="e#450#499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -140,10 +161,11 @@
         <option value="$PROJECT_DIR$/front/src/app/models/message.ts" />
         <option value="$PROJECT_DIR$/front/src/app/Components/home/home.component.ts" />
         <option value="$PROJECT_DIR$/front/src/app/Components/home/home.component.html" />
-        <option value="$PROJECT_DIR$/front/src/app/guards/login.guard.ts" />
         <option value="$PROJECT_DIR$/front/src/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/front/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/front/src/app/service/login.service.ts" />
+        <option value="$PROJECT_DIR$/front/src/app/guards/login.guard.ts" />
+        <option value="$PROJECT_DIR$/front/.gitignore" />
       </list>
     </option>
   </component>
@@ -198,16 +220,14 @@
               <item name="chat" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="chat" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,17 +283,18 @@
       <workItem from="1552339169137" duration="1284000" />
       <workItem from="1552340490775" duration="1218000" />
       <workItem from="1552423318222" duration="3951000" />
-      <workItem from="1552596266584" duration="3363000" />
+      <workItem from="1552596266584" duration="3867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17136000" />
+    <option name="totallyTimeSpent" value="17640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.15573333" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.15573333" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.31653887" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +307,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3611111" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3611111" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -407,7 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/guards/login.guard.ts___jb_tmp___" />
     <entry file="file://$PROJECT_DIR$/front/src/app/app.routing.ts___jb_tmp___" />
     <entry file="file://$PROJECT_DIR$/front/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -440,36 +460,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/app.component.html" />
     <entry file="file://$PROJECT_DIR$/front/src/app/app.component.scss" />
-    <entry file="file://$PROJECT_DIR$/front/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <element signature="e#360#435#0" expanded="true" />
-            <element signature="e#450#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/app.component.ts___jb_tmp___">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/app.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,22 +475,6 @@
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="n#!!block;n#login#0;n#LoginService#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-            <element signature="e#78#178#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="n#!!block;n#_navigationInterceptor#0;n#AppComponent#0" expanded="true" />
-            <element signature="e#445#746#0" expanded="true" />
-            <element signature="e#926#1228#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -514,6 +493,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/Components/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#340#553#0" expanded="true" />
+            <element signature="e#360#435#0" expanded="true" />
+            <element signature="e#450#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#309#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/models/message.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -524,6 +534,28 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/guards/login.guard.ts___jb_tmp___">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#78#178#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="n#!!block;n#_navigationInterceptor#0;n#AppComponent#0" expanded="true" />
+            <element signature="e#445#746#0" expanded="true" />
+            <element signature="e#926#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/app.component.ts___jb_tmp___">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/guards/login.guard.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,10 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/Components/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/front/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="197">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
