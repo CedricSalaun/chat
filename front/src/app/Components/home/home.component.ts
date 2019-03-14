@@ -9,7 +9,7 @@ import { Message } from '../../models/message';
 })
 export class HomeComponent implements OnInit {
 
-  public constructor() { }
+  public constructor() {}
 
   public ngOnInit(): void {
   }
